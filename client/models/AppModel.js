@@ -18,9 +18,7 @@ var AppModel = Backbone.Model.extend({
       this.set('currentSong', song);
     }, this);
 
-    dispatcher.bind('playSong', function(song){
-      this.set('currentSong', song);
-    }, this);
+
   }
 
 });
