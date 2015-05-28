@@ -4,6 +4,10 @@ var LibraryView = Backbone.View.extend({
   tagName: "table",
 
   initialize: function() {
+    // this.collection.bind("change:isInQueue", function(){
+    //   console.log("triggering event from LibView");
+    //   dispatcher.trigger('enqueue', 555, 999);
+    // });
     this.render();
   },
 
